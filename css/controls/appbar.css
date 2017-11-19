@@ -7,29 +7,28 @@ div.appBar {
 }
 
 div.appBarItem {
-  padding: 5px;
+  padding: 6px;
   width: 75px;
   color: white;
-  border-radius: 5px;
   float: left;
   cursor: pointer;
   animation: slideBookmarks 2s;
   animation-fill-mode: forwards;
 }
 
-div.appBarItem:hover {
-  background: rgba(182, 182, 182, 0.6);
-}
-
-div.appBarCloseItem {
-  background: rgba(2, 2, 2, 0.2);
-  margin-right: 10px;
-  width: 68px;
-  height: 60px;
-  color: white;
-}
+/* div.appBarItem:hover {
+  animation: fadeBookmarksBackground 0.75s forwards;
+} */
 
 img.appBarImage {
   padding-top: 15px;
   width: 16px;
+}
+
+#hiddenContent {
+  opacity: 0;
+}
+
+#parent:hover #hiddenContent {
+  animation: slideBookmarksText 0.60s forwards;
 }

@@ -10,7 +10,6 @@ function loadStartFunctions() {
 window.addEventListener("load", loadStartFunctions);
 document.addEventListener("contextmenu", showContextMenu);
 document.getElementById("search").addEventListener("keypress", search);
-document.getElementById("closeTab").addEventListener("click", closeCurrentTab);
 
-// Margin helpers
-document.getElementById("clock").style.marginTop = getScreenResolution()[1] - 600 + "px";  
+// Fix margins on screen
+document.getElementById("clock").style.marginTop = getScreenResolution()[1] / 2 - 256 + "px";

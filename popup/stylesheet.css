@@ -1,0 +1,41 @@
+
+* {
+    outline: none;
+  }
+
+  body {
+    margin: 20px;
+    background-color: #4830E6;
+    color: white;
+    white-space: nowrap;
+  }
+
+  a {
+    color: #2797D8;
+    text-decoration-style: none;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-style: none;
+    padding: 8px;
+    color: white;
+    background-color: #00A2D3;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #00D3B0;
+  }
+
+  #container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }

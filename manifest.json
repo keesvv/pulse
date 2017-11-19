@@ -3,21 +3,27 @@
 
   "name": "Pulse",
   "description": "An elegant extension to spice things up.",
-  "version": "1.2",
+  "version": "1.2.0.0",
 
   "chrome_url_overrides": {
     "newtab": "html/pulse.html"
   },
 
+  "icons": {
+    "16": "img/icons/icon_@16px.png",
+    "48": "img/icons/icon_@48px.png",
+    "128": "img/icons/icon_@128px.png",
+    "256": "img/icons/icon_@256px.png"
+  },
+
   "browser_action": {
     "default_icon": "img/popup_icon.png",
-    "default_popup": "popup.html",
+    "default_popup": "popup/popup.html",
     "default_title": "Pulse Settings"
   },
 
   "permissions": [
     "activeTab",
-    "storage",
     "bookmarks",
     "chrome://favicon/"
   ]

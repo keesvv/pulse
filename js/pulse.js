@@ -30,6 +30,7 @@ function updateAppBar(bookmarks) {
     var itemImage = document.createElement("img");
     var itemText = document.createElement("p");
 
+    itemLink.setAttribute("id", "parent");
     itemLink.setAttribute("href", bookmarks[i].url);
 
     itemDiv.setAttribute("class", "appBarItem");
@@ -39,7 +40,13 @@ function updateAppBar(bookmarks) {
     itemImage.setAttribute("src", "chrome://favicon/" + bookmarks[i].url);
     itemImage.setAttribute("title", bookmarks[i].title);
 
-    itemText.innerText = bookmarks[i].title.substring(0, 20);
+    if(bookmarks[i].title.length >= 20) {
+      itemText.innerText = bookmarks[i].title.substring(0, 20) + "...";
+    } else {
+      itemText.innerText = bookmarks[i].title;
+    }
+
+    itemText.setAttribute("id", "hiddenContent");
 
     itemLink.appendChild(itemDiv);
     itemDiv.appendChild(itemCenter);
