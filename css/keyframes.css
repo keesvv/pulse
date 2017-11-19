@@ -1,0 +1,23 @@
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideBookmarks {
+  0% { margin-left: -400px; }
+  10% { margin-left: -300px; }
+  50% { margin-left: -200px; }
+  75% { margin-left: -100px; }
+  100% { margin-left: margin-left; }
+}
+
+@keyframes slideFromTop {
+  from { margin-top: 0px; }
+  to { margin-top: margin-top; }
+}

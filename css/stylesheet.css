@@ -1,0 +1,49 @@
+
+@import url("keyframes.css");
+
+* {
+  outline: none;
+}
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  animation: fadeInPage 0.80s;
+  animation-delay: 0.80s;
+  animation-fill-mode: forwards;
+}
+
+div.overlay {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  overflow: auto;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+h1.clock {
+  margin-top: 320px;
+  font-size: 120px;
+  font-family: Roboto;
+  font-weight: 100;
+  color: white;
+  animation: slideFromTop 0.80s;
+  animation-delay: 0.50s;
+}
+
+input.search {
+  width: 580px;
+  height: 42px;
+  border-radius: 25px;
+  padding: 5px 30px 5px 30px;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #c6c6c6;
+  border: none;
+  background: rgba(5, 5, 5, 0.6);
+}
