@@ -3,7 +3,7 @@
 
   "name": "Pulse",
   "description": "An elegant extension to spice things up.",
-  "version": "1.2.0.0",
+  "version": "1.2.2.2",
 
   "chrome_url_overrides": {
     "newtab": "html/pulse.html"
