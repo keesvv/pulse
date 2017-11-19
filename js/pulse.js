@@ -7,6 +7,12 @@ function getBookmarks() {
   chrome.bookmarks.getRecent(12, updateAppBar)
 }
 
+function getScreenResolution() {
+  var x = window.screen.width;
+  var y = window.screen.height;
+  return [x, y];
+}
+
 function showContextMenu(e) {
   e.preventDefault();
   $(function() {
