@@ -1,7 +1,16 @@
 
 div.contextMenu {
   display: none;
-  width: 200px;
-  background-color: #ffffff;
-  padding: 5px;
+  width: 256px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto;
+  padding: 0px 15px 0px 15px;
+  border-radius: 10px;
+}
+
+hr.contextMenuSeparator {
+  border: 0.65px #707070 solid;
 }

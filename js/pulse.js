@@ -16,8 +16,13 @@ function getScreenResolution() {
 function showContextMenu(e) {
   e.preventDefault();
   $(function() {
+    $(".contextMenu").css({
+      "top": e.pageY,
+      "left": e.pageX,
+      "position": "absolute"
+    });
+
     $(".contextMenu").finish().toggle(100);
-    $(".contextMenu").contextMenu("#contextMenu");
   })
 }
 
