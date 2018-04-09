@@ -1,8 +1,9 @@
 # Pulse
-![Icon](https://i.gyazo.com/ae7443f1f3ac8d0f622b8bd4fcc45024.png)
-
 ⛰️ An elegant extension for Google Chrome to spice things up.
 
+![Icon](https://i.gyazo.com/ae7443f1f3ac8d0f622b8bd4fcc45024.png)
+
+# Screenshots
 ![Screenshot](https://i.gyazo.com/3e8b41bcb845274a7fdc0f82dc20e003.jpg)
 
 # Installation
